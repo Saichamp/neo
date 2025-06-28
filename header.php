@@ -82,7 +82,7 @@ if (isset($_GET['page'])) {
     <!-- Main Navigation -->
     <nav class="navbar navbar-expand-lg main-navbar sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.php">
                 <img src="assets/images/logo.png" alt="Neo Vision School" class="logo">
             </a>
             
@@ -112,11 +112,11 @@ if (isset($_GET['page'])) {
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($page == 'campus') ? 'active' : ''; ?>" href="?page=campus">Gallery</a>
+                        <a class="nav-link <?php echo ($page == 'campus') ? 'active' : ''; ?>" href="?page=gallery">Gallery</a>
                     </li>
                   
                     <li class="nav-item">
-                        <a class="nav-link <?php echo ($page == 'alumni') ? 'active' : ''; ?>" href="?page=alumni">Vision Toppers</a>
+                        <a class="nav-link <?php echo ($page == 'alumni') ? 'active' : ''; ?>" href="?page=toppers">Vision Toppers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo ($page == 'contact') ? 'active' : ''; ?>" href="?page=contact">Contact</a>
